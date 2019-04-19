@@ -1,0 +1,239 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="layoutside.css">
+</head>
+<body>
+<section class="clearfix hd1-topbar bg-thanhtu">
+  <div class="container">
+    <div class="row">
+      <div class="col">Tư Vấn Trực Tuyến: (01) 234 456 789 </div>
+      <div class="col text-right">Tư Vấn Trực Tuyến: (01) 234 456 789 </div>
+    </div>
+  </div>
+</section>
+<section class="clearfix hd1-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 "> LOGO </div>
+      <div class="col-md-5 d-none d-md-block">
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+      <div class="col-md-2 col-3"> TK </div>
+      <div class="col-md-2 col-3"> GIO HANG </div>
+    </div>
+  </div>
+</section>
+<section class="clearfix hd1-mainmenu">
+  <div class="container">
+    <div class="row">
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle btn-lg" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Danh mục sản phẩm</button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"> <a class="dropdown-item" href="#">Chuột</a> <a class="dropdown-item" href="#">Bàn phím</a> <a class="dropdown-item" href="#">HDD/SSD</a> <a class="dropdown-item" href="#">RAM</a> <a class="dropdown-item" href="#">Miếng lót chuột</a> </div>
+      </div>
+      <div class="col-md-9">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light"> <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active"> <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> </li>
+              <li class="nav-item"> <a class="nav-link" href="#">Link</a> </li>
+              <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Dropdown </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown"> <a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a> </div>
+              </li>
+              <li class="nav-item"> <a class="nav-link disabled" href="#">Disabled</a> </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6">
+      <table class="form-horizontal">
+        <div class="form-group">
+          <tr>
+            <td><label class="col-sm-12">Họ Tên</label></td>
+            <th> <input type="text" name="Hoten"></th>
+          </tr>
+        </div>
+        <div class="form-group">
+          <tr>
+            <td><label class="col-sm-12">Điện thoại di động</label></td>
+            <th><input type="text" name="DT"></th>
+          </tr>
+        </div>
+        <div class="form-group">
+          <tr>
+            <td><label class="col-sm-12">Tỉnh/Thành Phố</label></td>
+            <th><select name="form-control" class="custom-select mb-3">
+                <option value="TP.HCM">TP.HCM</option>
+                <option value="TP.Hue">TP.Huế</option>
+                <option value="Da Nang">Đà Nẵng</option>
+                <option value="Vinh Long">Vĩnh Long</option>
+              </select></th>
+          </tr>
+        </div>
+        <div class="form-group">
+          <tr>
+            <td><label	 class="col-sm-12">Quận/Huyện</label></td>
+            <th> <select name="form-control" class="custom-select mb-3">
+                <option>Hóc Môn</option>
+                <option>Bình Thạnh</option>
+                <option>Tân Bình</option>
+                <option>Quận 12</option>
+              </select></th>
+          </tr>
+        </div>
+        <div class="form-group">
+          <tr>
+            <td><label class="col-sm-12">Phường/Xã</label></td>
+            <th><select name="form-control" class="custom-select mb-3">
+                <option>Tân Thới Nhì</option>
+                <option>Tân Thới Thượng</option>
+                <option>Thống Nhất</option>
+                <option>Tân Thới Tam</option>
+              </select></th>
+          </tr>
+        </div>
+        <div class="form-group">
+          <tr>
+            <td><label class="col-sm-12">Địa chỉ</label></td>
+            <th> <textarea name="form-control" rows="2" class="custom-control"></textarea></th>
+            <br>
+          </tr>
+        </div>
+        <div class="form-group">
+          <div class="col-sm-12">
+            <tr>
+              <td><label class="col-sm-12"></label></td>
+              <th><button type="button" class="btn btn-light">Hủy bỏ</button>
+                <button type="button" class="btn btn-info ">Cập Nhật</button></th>
+            </tr>
+          </div>
+        </div>
+      </table>
+    </div>
+    <div class="col-sm-6">
+      <table class="form-horizontal">
+        <div class="form-group">
+          <div class="col-sm-12 text-center">
+            <tr>
+              <td><label for="SP">Tên sản phẩm:</label></td>
+              <th><label for="Ten"> Kingspec P3-240 2.5 Sata III 240Gb</label>
+              </th>
+            </tr>
+          </div>
+        </div>
+        <div class="form-group text-center">
+          <div class="col-sm-12">
+            <tr>
+              <td><label for="Gia">Giá :</label></td>
+              <th> <label for="Sotien"> 899.000đ</label>
+              </th>
+            </tr>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-sm-12">
+            <tr>
+              <td><label for="Soluong">Số Lượng</label></td>
+              <th> <label for="item"> 1</label>
+              </th>
+            </tr>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-sm-12 text-center">
+            <tr>
+              <td><label for="Tien">Thành tiền</label></td>
+              <th> <label for="Tong">899.000đ</label>
+              </th>
+            </tr>
+          </div>
+        </div>
+        <div class="form-group">
+        		<div class="card">
+        		<div class="card-subtitle">
+        			<p class="card-text"> Tên Khách hàng : Ngô Đầu Buồi</p>
+        			<p class="card-text"> Số điện thoại : 090921029</p>
+        			<p class="card-text"> Địa chỉ: Tào lao bí đao</p>
+					</div>
+        		</div>
+        </div>
+      </table>
+    </div>
+  </div>
+</div>
+<section class="clearfix hd1-policy border-top border-bottom-2 py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3"> Chất lượng hàng đầu
+        Cam kết tất cả sản phẩm chính hãng 100% </div>
+      <div class="col-md-3"> Chất lượng hàng đầu
+        Cam kết tất cả sản phẩm chính hãng 100% </div>
+      <div class="col-md-3"> Chất lượng hàng đầu
+        Cam kết tất cả sản phẩm chính hãng 100% </div>
+      <div class="col-md-3"> Chất lượng hàng đầu
+        Cam kết tất cả sản phẩm chính hãng 100% </div>
+    </div>
+  </div>
+</section>
+<section class="clearfix hd1-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2">
+        <ul class="list-menu">
+          <h6><b> VỀ 9586 </b></h6>
+          <li> <a href="#">Trang chủ </a></li>
+          <li> Sản phẩm </li>
+          <li> Giới thiệu </li>
+          <li> Liên hệ </li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <ul class="list-menu">
+          <h6><span><b> HƯỚNG DẪN KHÁCH HÀNG </b></span></h6>
+          <li> Hướng dẫn mua online </li>
+          <li> Hướng dẫn mua trả góp </li>
+          <li> Hướng dẫn giao nhận</li>
+          <li> Hướng dẫn thanh toán </li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <ul class="list-menu">
+          <h6><span><b>CHÍNH SÁCH CỦA 9586</b></span></h6>
+          <li> <a href="#">Chính sách ưu đãi </a></li>
+          <li> <a href="#">Chính sách đổi trả </a></li>
+          <li> <a href="#">Chính sách vận chuyển</a></li>
+          <li> <a href="#">Chính sách bảo hành </a></li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <ul class="list-menu">
+          <h6><span><b>KẾT NỐI VỚI CHÚNG TÔI</b></span></h6>
+          <li> <a href="https://www.facebook.com/profile.php?id=100016526086092">Đỗ Kim Đăng Khoa</a></li>
+          <li> <a href="https://www.facebook.com/duy.ngo.589583">Ngô Quốc Duy</a></li>
+          <li> <a href="https://www.facebook.com/TuKent00">Nguyễn Thanh Tú </a></li>
+          <li> <a href="https://www.facebook.com/tuan.ho.02">Hồ Anh Tuấn </a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+</body>
+</html>
